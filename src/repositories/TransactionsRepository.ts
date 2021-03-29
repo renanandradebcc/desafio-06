@@ -20,7 +20,7 @@ class TransactionsRepository {
   }
 
   public all(): Transaction[] {
-    // TODO
+
     return this.transactions;
   }
 
@@ -53,7 +53,7 @@ class TransactionsRepository {
   }
 
   public create({ title, value, type }: CreateTransationDTO): Transaction {
-    // TODO
+
     const transaction = new Transaction({
       title,
       value,
